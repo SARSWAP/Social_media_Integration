@@ -10,18 +10,20 @@
     tools:context="com.example.socialmedia.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/signintxt"
         android:layout_width="208dp"
         android:layout_height="89dp"
         android:text="Sign in"
         android:textColor="#000000"
         android:textSize="60sp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.323" />
+        app:layout_constraintVertical_bias="0.323"
+        tools:visibility="visible" />
 
     <com.facebook.login.widget.LoginButton
         android:id="@+id/login_button"
@@ -29,12 +31,14 @@
         android:layout_height="57dp"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.568" />
+        app:layout_constraintVertical_bias="0.568"
+        tools:visibility="visible" />
 
     <LinearLayout
         android:id="@+id/linearview"
@@ -64,7 +68,7 @@
             android:layout_gravity="center"
             android:padding="8dp"
             android:text="Username"
-            android:textColor="#FFF"
+            android:textColor="#050505"
             android:textSize="18sp"
             android:visibility="visible"
             tools:visibility="visible" />
@@ -76,7 +80,7 @@
             android:layout_gravity="center"
             android:padding="8dp"
             android:text="Email Address"
-            android:textColor="#FFF"
+            android:textColor="#050505"
             android:textSize="18sp"
             android:visibility="visible"
             tools:visibility="visible" />
@@ -96,13 +100,15 @@
         android:drawingCacheQuality="high"
         android:paddingLeft="5dp"
         android:text="Sign In  with Google"
+        android:visibility="visible"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.418"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.725" />
+        app:layout_constraintVertical_bias="0.725"
+        tools:visibility="visible" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
